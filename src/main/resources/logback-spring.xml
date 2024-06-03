@@ -18,6 +18,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <pattern>%d %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
             <charset>utf-8</charset>
+            <charset>GBK</charset>
         </encoder>
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>error</level>
@@ -40,6 +41,7 @@
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <pattern>%d %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
             <charset>utf-8</charset>
+            <charset>GBK</charset>
         </encoder>
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>warn</level>
